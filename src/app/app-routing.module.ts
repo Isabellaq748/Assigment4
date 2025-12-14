@@ -1,0 +1,1 @@
+import {NgModule} from '@angular/core';import {RouterModule,Routes} from '@angular/router';const r:Routes=[{path:'',redirectTo:'register',pathMatch:'full'}];@NgModule({imports:[RouterModule.forRoot(r)],exports:[RouterModule]})export class AppRoutingModule{}

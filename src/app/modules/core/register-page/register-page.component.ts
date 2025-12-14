@@ -1,0 +1,1 @@
+import {Component} from '@angular/core';import {Router} from '@angular/router';@Component({template:'<form #f="ngForm" (ngSubmit)="onSubmit(f)"><input name="name" ngModel required><button [disabled]="f.invalid">Submit</button></form>'})export class RegisterPageComponent{constructor(private r:Router){}onSubmit(f:any){if(f.valid)this.r.navigate(['/products']);}}
