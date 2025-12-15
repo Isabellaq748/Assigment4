@@ -1,11 +1,5 @@
-# Node
-node_modules/
-dist/
-.angular/
-
-# OS
+node_modules
+dist
+.angular
 .DS_Store
 
-# Logs
-npm-debug.log*
-.DS_Store
